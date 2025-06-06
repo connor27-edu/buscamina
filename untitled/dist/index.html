@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Buscaminas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="login" id="login">
+    <h1>Buscaminas</h1>
+    <input type="text" id="username" placeholder="Usuario"><br>
+    <input type="password" id="password" placeholder="Contraseña"><br>
+    <button onclick="login()">Iniciar sesión</button>
+    <p id="loginError" class="error"></p>
+  </div>
+
+  <div class="game hidden" id="game">
+    <h2>Bienvenido, ¡a jugar!</h2>
+    <div class="board" id="board"></div>
+    <p id="gameStatus"></p>
+    <button onclick="location.reload()">Reiniciar</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
